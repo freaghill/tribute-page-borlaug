@@ -48,9 +48,12 @@ h1{
     padding-bottom: 25px;;
 }
 
-
 .year{
     font-weight: 800;
+}
+
+#quote{
+    font-style: italic;
 }
 
 #wikipedia{
