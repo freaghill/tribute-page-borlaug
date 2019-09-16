@@ -1,0 +1,66 @@
+*{
+    color: #333333
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Lato";
+}
+
+#main{
+    background-color: #EEEEEE;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#title{
+    padding-top: 15px;
+}
+
+#img-div{
+    margin: 0 auto;
+    width: 98%;
+    background-color: #fff
+}
+
+#image{
+    width: 90%;
+    max-width: 1024px;
+    max-height: 623px;
+}
+
+#img-caption{
+    padding: 15px 0 15px;
+}
+
+#tribute-info{
+    padding: 20px;
+
+}
+
+#tribute-info ul,
+#blockquote{
+    text-align: left;
+    padding: 20px 300px;
+}
+
+#tribute-info ul li{
+    padding-bottom: 25px;;
+}
+
+
+.year{
+    font-weight: 800;
+}
+
+#wikipedia{
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    #tribute-info ul,
+    #blockquote{
+        text-align: left;
+        padding: 0;
+    }
+}
