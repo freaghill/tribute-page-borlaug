@@ -57,10 +57,17 @@ h1{
     padding-top: 10px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     #tribute-info ul,
     #blockquote{
         text-align: left;
-        padding: 0;
+        padding: 30px;
+    }
+    #img-caption{
+        line-height: 1.5em;
+    }
+    #tribute-info ul li{
+        line-height: 1.15em;
+        padding-bottom: 45px;
     }
 }
